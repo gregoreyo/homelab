@@ -75,6 +75,34 @@ This section documents the various services running in the homelab.
 
 This section details specific projects undertaken in the homelab.
 
-- [Project 1 (Name)](projects/project1.md) - Description, implementation, and outcomes.
-- [Project 2 (Name)](projects/project2.md) - Description, implementation, and outcomes.
+- [Project 1: VirtualBox Network Setup](projects/virtualbox_network_setup.md) - Setting up VirtualBox and networking VMs.
+    - **Description:** This project was about setting up VirtualBox on the Desktop tower and configuring virtual machines to communicate with each other and the host network.
+    - **Implementation:**
+        - Installed VirtualBox on the host machine.
+        - Created multiple virtual machines with different operating systems.
+        - Configured VirtualBox network settings using internal and bridged adapters.
+        - Configured static IP addresses for the VMs.
+        - Tested network connectivity between VMs and the host.
+    - **Outcome:** A working VirtualBox environment with networked VMs, allowing for testing and development in an isolated environment.
+
+- [Project 2: Proxmox VE Setup](projects/proxmox_setup.md) - Setting up and configuring Proxmox VE for virtualization.
+    - **Description:** This project focused on installing and configuring Proxmox VE on the desktop tower to create a robust virtualization environment.
+    - **Implementation:**
+        - Installed Proxmox VE from a bootable USB drive.
+        - Configured network settings and storage pools.
+        - Created initial virtual machines for various services.
+        - Setup backups for the VMs.
+    - **Outcome:** A stable and efficient virtualization platform, allowing for easy management of multiple virtual machines and services.
+
+- [Project 3: Minecraft Server](projects/minecraft_server.md) - Setting up a dedicated Minecraft server.
+    - **Description:** This project involved setting up a Minecraft server to play with friends and family.
+    - **Implementation:**
+        - Created a Linux VM on Proxmox VE.
+        - Installed Java and the Minecraft server software.
+        - Configured server settings, including memory allocation and port forwarding.
+        - Setup a dynamic DNS to access the server remotely.
+        - Implemented backups for the world data.
+    - **Outcome:** A functional and accessible Minecraft server, providing a fun and engaging experience for multiple players.
+
+- [Project 4 (Name)](projects/project4.md) - Description, implementation, and outcomes.
 - ...
