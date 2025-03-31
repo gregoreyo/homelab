@@ -104,5 +104,5 @@ This section details specific projects undertaken in the homelab.
         - Implemented backups for the world data.
     - **Outcome:** A functional and accessible Minecraft server, providing a fun and engaging experience for multiple players.
 
-- [Project 4 (Name)](projects/project4.md) - Description, implementation, and outcomes.
-- ...
+- [Project 4: AI Voice Cloning](projects/AI_Voice_cloning.md) - Description, implementation, and outcomes.
+- 
